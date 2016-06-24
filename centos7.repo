@@ -1,0 +1,23 @@
+[base]
+name=CentOS-$releasever - Base
+baseurl=ftp://192.168.0.200/CENTOS7/aarch64/base/
+enabled=1
+gpgcheck=0
+
+[extras]
+name=CentOS-$releasever - Extras
+baseurl=ftp://192.168.0.200/CENTOS7/aarch64/extras
+enabled=1
+gpgcheck=0
+
+[updates]
+name=CentOS-$releasever - Updates
+baseurl=ftp://192.168.0.200/CENTOS7/aarch64/updates
+enabled=1
+gpgcheck=0
+
+[openstack-mitaka]
+name=openstack mitaka aarch64
+baseurl=ftp://192.168.0.200/CENTOS7/aarch64/cloud
+enabled=1
+gpgcheck=0
