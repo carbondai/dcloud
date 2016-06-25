@@ -25,6 +25,9 @@
 	在控制节点上使用packstack --answer-file=packstack-answers-pyg.txt
 	
 五、更改相关配置
+	上传镜像后，需要将镜像的元数据定义更新：
+	hw_firmware_type uefi
+	hw_video_model virtio
 	在2个计算节点上操作
 	安装qemu-system-aarch64和qemu-system-x86
 	进入目录/usr/libexec建立软链接
